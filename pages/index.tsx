@@ -6,7 +6,7 @@ import { GiCobweb } from 'react-icons/gi'
 import { HiHome } from 'react-icons/hi'
 
 const IndexPage = () => (
-    <Layout title="Home Page">
+    <Layout title="Dev Patel">
         <div className="block mx-auto w-fit rounded-md mobile:scale-95 md:scale-100">
             
             <header className="flex flex-col [&>*]:p-1 mobile:space-y-5 md:space-y-8 text-left text-[#323232] dark:text-b_white">

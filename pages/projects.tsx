@@ -5,7 +5,7 @@ import { projects } from '../utils/sample-data'
 
 export default function ProjectsPage() {    
     return (
-        <Layout title="Projects Page">
+        <Layout title="Projects">
             <div className="grid min-h-fit place-items-center my-20">
                 <div className="w-[75%]">
 
