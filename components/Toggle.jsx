@@ -14,7 +14,7 @@ export default function Toggle () {
                 />
             ) : (
                 <FaMoon
-                    onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                    onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
                     className="text-[#242544] text-lg cursor-pointer"
                 />
             )}
