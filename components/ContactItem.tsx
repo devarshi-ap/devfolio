@@ -11,7 +11,7 @@ export default function ContactItem(props) {
     }
 
     return (
-        <a href={props.url} target="_blank" className="relative text-[.65rem] [&>*]:p-3 [&>*]:w-fit [&>*]:text-6xl [&>*]:duration-700 [&>*]:hover:text-[#683238]/[0.35]" rel="noopener">
+        <a href={props.url} target="_blank" className="relative [&>*]:p-3 [&>*]:text-6xl [&>*]:duration-700 [&>*]:hover:text-[#683238]/[0.35]" rel="noopener">
             {logoMap[props.name]}
         </a>
     );
