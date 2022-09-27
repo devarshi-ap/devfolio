@@ -27,10 +27,10 @@ export default function ProjectBox({ name, description, tools, link, demo}) {
                     <h3 className="underline underline-offset-2 decoration-2 text-white">{name}</h3>
                 </div>
                 
-                <div className="space-y-5 py-4 px-3 rounded-b-md flex flex-col justify-between bg-a_black text-b_white">
+                <div className="space-y-5 py-4 px-3 rounded-b-md flex flex-col justify-between bg-a_black dark:bg-d_coolwhite text-b_white dark:text-gray">
                     <p className="text-sm w-[80%] mx-auto">{description}</p>
                     <code className="text-sm">🔨= {tools}</code>
-                    <p><a className="border border-[#d9dcee] p-1 rounded-md" href={link}>↗ ({demo ? 'Demo' : 'Github'})</a></p>
+                    <p><a className="border border-[#d9dcee] dark:border-orange p-1 rounded-md" href={link}>↗ ({demo ? 'Demo' : 'Github'})</a></p>
                 </div>
             </div>
         </motion.div>
