@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
 import ProjectBox from '../components/ProjectBox'
-import { projects } from '../utils/sample-data'
+import { projects } from '../utils/utils-data'
 
 export default function ProjectsPage() {    
     return (
