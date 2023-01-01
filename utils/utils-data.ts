@@ -7,6 +7,13 @@ export const projects = [
         demo:false
     },
     {
+        name:'Drake Quotes API',
+        description:"A public site & API for serving random Drake quotes & lyrics with Tweeting capability.",
+        tools:'[TypeScript, NextJs, Tailwind]',
+        link:"https://drake-rest.vercel.app/",
+        demo:true
+    },
+    {
         name:'Monte-Carlo Poker',
         description:'Monte Carlo Simulator for Texas-Holdem used to calculate Poker hand probabilities.',
         tools:'[Python, SQLite3, Seaborn, Unittest]',
@@ -25,6 +32,13 @@ export const projects = [
         description:'Enhanced "On This Day" web-app using YouTube & Wikipedia APIs.',
         tools:'[Next, Tailwind, Axios, Cypress (E2E)]',
         link:"https://wikiwow.vercel.app",
+        demo:true
+    },
+    {
+        name:'GoLint-Env',
+        description:"Dotenv linter program written in GoLang",
+        tools:'[GoLang]',
+        link:"https://drake-rest.vercel.app/",
         demo:true
     },
     // {
@@ -48,13 +62,13 @@ export const projects = [
         link:"https://weathrweb.netlify.app",
         demo:true
     },
-    {
-        name:'Competitive Programming',
-        description:'A competitive programming solutions library for questions from DMOJ.',
-        tools:'[Java, Python]',
-        link:"https://github.com/devarshi-ap/Competitive-Programming",
-        demo:false
-    },
+    // {
+    //     name:'Competitive Programming',
+    //     description:'A competitive programming solutions library for questions from DMOJ.',
+    //     tools:'[Java, Python]',
+    //     link:"https://github.com/devarshi-ap/Competitive-Programming",
+    //     demo:false
+    // },
     {
         name:'Folder Organizer Script',
         description:"Python script that organizes a dir by iteratively creating and populating subdir's based on file ext's.",
