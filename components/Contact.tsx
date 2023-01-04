@@ -25,7 +25,7 @@ export default function Contact() {
             />
 
             <ContactItem 
-                url="/Resume.pdf"
+                url="/PatelDevarshi_Resume.pdf"
                 name="Resume"
             />
         </div>
