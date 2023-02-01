@@ -40,13 +40,13 @@ export const data = {
 };
 
 export default function AboutPage() {
-    const langArr = ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express.js', 'Java', 'Python', 'Bash', 'SQL']
+    const langArr = ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express.js', 'Java', 'Python', 'Bash', 'SQL', 'C', 'Lisp', 'Smalltalk', 'Elixir']
     const languages = langArr.map(lang => <div key={lang + '123'}>{lang}</div>);
 
-    const dbArr = ['MongoDB', 'Redux-TK', 'Postgres']
+    const dbArr = ['MongoDB', 'Redux-TK', 'PostgreSQL', 'SQLite3']
     const databases = dbArr.map(db => <div key={db + '123'}>{db}</div>);
 
-    const toolArr = ['Cypress', 'Insomnia', 'PgAdmin']
+    const toolArr = ['Cypress', 'Insomnia', 'Unittest', 'PgAdmin']
     const tools = toolArr.map(tool => <div key={tool + '123'}>{tool}</div>);
 
     const otherArr = ['RESTful API design', 'E2E Testing']
@@ -111,9 +111,10 @@ export default function AboutPage() {
                         <ul className='list-inside'>
                             <li className='underline'>Sports:</li>
                             <ul className='list-disc list-inside ml-3'>
-                                <li>🏀 : Point Forward; you probably can't guard me :)</li>
-                                <li>🥏 : s/o my summer team, ManILoveFrisbee</li>
-                                <li>🏈 : Fantasy Football; go Chargers!</li>
+                                <li>🏀 : 5'11 Point Forward out of Toronto :)</li>
+                                <li>🥏 : s/o my summer TUC team, ManILoveFrisbee</li>
+                                <li>🏈 : Fantasy Football; fly Eagles fly!</li>
+                                <li>🏋🏽 : Weightlifting; progress, one day at a time</li>
                             </ul>
 
                             <li className='underline'>Interests:</li>
