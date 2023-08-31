@@ -63,18 +63,20 @@ export default function AboutPage() {
                         <p>I'm Devarshi Patel and <a href="/" className="text-orange dark:text-twitter">this site</a> is my 🏡 on the 🕸.</p>
                         
                         <p>
-                            I'm currently in my 2nd year at Ryerson University working towards my HBSc. for Computer Science.
-                            My dedication lies in solving problems using technologies and methodologies that one might even consider magic 🪄!
+                            I'm about to start an 8-mo co-op term @ OPG (Pickering) as a SWE. Thereafter, I'll return as a 3A student at Ryerson working towards my HBSc. in CompSci.
                         </p>
                         
                         <p>
-                            I spend a lot of my free time messing around with code and here I'll tabulate some of it.
-                            Some things might even be called <a href="/projects" className="text-orange dark:text-twitter">projects</a> and hopefully the rest might still be of interest.
+                            I spend a lot of my free time messing around with code and I'll journal some of it here.
+                            Some of these might be <a href="/projects" className="text-orange dark:text-twitter">projects</a> and hopefully the rest might still be of interest to yalls!
                         </p>
 
                         <p>
                             I'm always learning new skills and expanding my knowledge by taking up projects that involve <span className="text-orange dark:text-twitter">bleeding-edge technology</span>.
-                            Actively in pursuit of a 2023 internship (pretty pls :)).
+                        </p>
+
+                        <p>
+                            <s><em>Actively in pursuit of a 2023 internship (pretty pls :)).</em></s>
                         </p>
                     </div>
                     
@@ -117,18 +119,19 @@ export default function AboutPage() {
                                 <li>🏋🏽 : Weightlifting; progress, one day at a time</li>
                             </ul>
 
-                            <li className='underline'>Interests:</li>
+                            <li className='underline'>Current Interests:</li>
                             <ul className='list-disc list-inside ml-3'>
                                 <li>🎲 : Studying the Probability Theory behind Poker</li>
-                                <li>💻 : Spending a day automating a 5 minute task</li>
+                                <li>💻 : Spending 5 hours automating a 5 minute task</li>
                                 <li>🤝🏻 : Volunteering (FYFB, Community Centers, Ryerson Clubs)</li>
                             </ul>
 
                             <li className='underline'>Solace:</li>
                             <ul className='list-disc list-inside ml-3'>
-                                <li>🎧 : Self-proclaimed Music Savante</li>
+                                <li>🎧 : Self-proclaimed Music Savante (psst... <a href="https://open.spotify.com/user/dev9191?si=1fa1d94bb5564d46" className="text-orange dark:text-twitter">Spotify :)</a>)</li>
                                 <li>🌟 : Stargazing</li>
                                 <li>🗺 : Planning future travels</li>
+                                <li>🛍️ : Window shopping</li>
                             </ul>
                         </ul>
                     </div>

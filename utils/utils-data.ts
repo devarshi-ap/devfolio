@@ -1,9 +1,9 @@
 export const projects = [
     {
-        name:'Skool',
-        description:'Type-safe REST-API to perform CRUD ops on a school-db model.',
-        tools:'[TypeScript, NextJs, Tailwind, Prisma, Postgres]',
-        link:'https://github.com/devarshi-ap/skool',
+        name:'Toronto Starbucks Effect',
+        description:' Leveraging data analytics to gain key insights on the correlation b/n Starbucks locations & Toronto neighbourhood profiles.',
+        tools:'[Python, Pandas, Plotly, MySQL, Tableau, MS Excel, Jupyter]',
+        link:'https://github.com/devarshi-ap/toronto-starbucks-effect',
         demo:false
     },
     {
@@ -35,24 +35,17 @@ export const projects = [
         demo:true
     },
     {
-        name:'GoLint-Env',
-        description:"Dotenv linter program written in GoLang",
-        tools:'[GoLang]',
-        link:"https://drake-rest.vercel.app/",
-        demo:true
-    },
-    // {
-    //     name:'Adoc-Md',
-    //     description:'Markup text editor which supports preview and unidirectional conversion from markdown and asciidoc to HTML.',
-    //     tools:'[JavaScript, Java]',
-    //     link:"https://adoc-md.vercel.app",
-    //     demo:true
-    // },
-    {
         name:'DSA-Snippets',
         description:'VS Code extension for JavaScript DS&A code snippets.',
         tools:'[JavaScript]',
         link:"https://marketplace.visualstudio.com/items?itemName=DevarshiPatel03.dsasnippets",
+        demo:true
+    },
+    {
+        name:'GoLint-Env',
+        description:"Dotenv linter program written in GoLang",
+        tools:'[GoLang]',
+        link:"https://drake-rest.vercel.app/",
         demo:true
     },
     {
@@ -62,13 +55,6 @@ export const projects = [
         link:"https://weathrweb.netlify.app",
         demo:true
     },
-    // {
-    //     name:'Competitive Programming',
-    //     description:'A competitive programming solutions library for questions from DMOJ.',
-    //     tools:'[Java, Python]',
-    //     link:"https://github.com/devarshi-ap/Competitive-Programming",
-    //     demo:false
-    // },
     {
         name:'Folder Organizer Script',
         description:"Python script that organizes a dir by iteratively creating and populating subdir's based on file ext's.",

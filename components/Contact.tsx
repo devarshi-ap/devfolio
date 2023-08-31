@@ -15,11 +15,6 @@ export default function Contact() {
             />
 
             <ContactItem 
-                url="https://twitter.com/thefirstdev"
-                name="Twitter"
-            />
-
-            <ContactItem 
                 url="https://medium.com/@cforsmart/"
                 name="Medium"
             />
