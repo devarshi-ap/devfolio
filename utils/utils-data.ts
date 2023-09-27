@@ -36,7 +36,7 @@ export const projects = [
     },
     {
         name:'DSA-Snippets',
-        description:'VS Code extension for JavaScript DS&A code snippets.',
+        description:'VS Code extension for JavaScript DS&A code snippets. (300+ installs)',
         tools:'[JavaScript]',
         link:"https://marketplace.visualstudio.com/items?itemName=DevarshiPatel03.dsasnippets",
         demo:true

@@ -46,7 +46,7 @@ export default function AboutPage() {
     const dbArr = ['MongoDB', 'Redux-TK', 'PostgreSQL', 'SQLite3']
     const databases = dbArr.map(db => <div key={db + '123'}>{db}</div>);
 
-    const toolArr = ['Cypress', 'Insomnia', 'Unittest', 'PgAdmin']
+    const toolArr = ['Cypress', 'Insomnia', 'Unittest', 'PgAdmin', 'Power BI']
     const tools = toolArr.map(tool => <div key={tool + '123'}>{tool}</div>);
 
     const otherArr = ['RESTful API design', 'E2E Testing']
@@ -63,7 +63,7 @@ export default function AboutPage() {
                         <p>I'm Devarshi Patel and <a href="/" className="text-orange dark:text-twitter">this site</a> is my 🏡 on the 🕸.</p>
                         
                         <p>
-                            I'm about to start an 8-mo co-op term @ OPG (Pickering) as a SWE. Thereafter, I'll return as a 3A student at Ryerson working towards my HBSc. in CompSci.
+                            I'm currently on an 8-mo co-op term @ OPG (Pickering) as a data engineer. Thereafter, I'll return as a 3A student at Ryerson working towards my HBSc. in CompSci.
                         </p>
                         
                         <p>
@@ -76,7 +76,7 @@ export default function AboutPage() {
                         </p>
 
                         <p>
-                            <s><em>Actively in pursuit of a 2023 internship (pretty pls :)).</em></s>
+                            <s><em>In pursuit of a 2023 internship (pretty pls :)).</em></s>
                         </p>
                     </div>
                     
