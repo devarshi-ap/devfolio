@@ -1,9 +1,8 @@
-import Link from 'next/link'
 import Layout from '../components/Layout'
 import ProjectBox from '../components/ProjectBox'
 import { projects } from '../utils/utils-data'
 
-export default function ProjectsPage() {    
+export default function ProjectsPage() {
     return (
         <Layout title="Projects">
             <div className="grid min-h-fit place-items-center my-20">
@@ -14,7 +13,7 @@ export default function ProjectsPage() {
                     <div className="grid grid-cols-2 mobile:grid-cols-1 md:grid-cols-2 gap-16 place-content-stretch w-[90%] mx-auto text-center text-gray dark:text-d_coolwhite">
 
                         {projects.map(proj => (
-                            <ProjectBox 
+                            <ProjectBox
                                 name={proj.name}
                                 description={proj.description}
                                 tools={proj.tools}
