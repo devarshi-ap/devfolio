@@ -63,7 +63,7 @@ export default function AboutPage() {
                         <p>I'm Devarshi Patel and <a href="/" className="text-orange dark:text-twitter">this site</a> is my 🏡 on the 🕸.</p>
 
                         <p>
-                            I recently completed a 12-month co-op term at OPG (PNGS) as a SWE Intern. Now, I'm a 3A CS Student working towards my HBSc. in Computer Science, having transferred from TMU to Western University.
+                            I recently completed a 12-month co-op term at OPG (PNGS) as a SWE Intern. Now, I'm a 4th-Year CS Student working towards my HBSc. in Computer Science, having transferred from TMU to Western University.
                         </p>
 
                         <p>
