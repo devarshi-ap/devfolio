@@ -9,7 +9,7 @@ const IndexPage = () => (
             <header className="flex flex-col [&>*]:p-1 mobile:space-y-5 md:space-y-8 text-left text-[#323232] dark:text-b_white">
                 <h1 className="font-Playfair mobile:text-4xl md:text-5xl text-a_brown dark:text-c_taupe">Hi, I'm Dev !</h1>
                 <div className="font-SansPro mobile:text-[1.1rem] md:text-[1.2rem] [&>*]:text-gray/[0.75] [&>*]:dark:text-c_taupe/[0.75]">
-                    <h1>{'CS new grad from Western (Aug 2026) & NAYGN Tech Committee & prev. SWE @ Ontario Power Generation Inc.'}</h1>
+                    <h1>{'CS new grad from Western (Aug 2026) & NAYGN Tech Committee & prev. SWE @ OPG Inc.'}</h1>
                     <h1>Welcome to my 🏡 on the <GiCobweb className="inline" /> !!</h1>
                 </div>
                 <h1 className='font-SansPro mobile:space-y-2 md:space-y-3 mobile:text-[0.75rem] md:text-[1rem] text-[#D6D6D6] dark:text-gray'><em>In pursuit of new grad roles <s>pretty pls :)</s></em></h1>
