@@ -1,9 +1,31 @@
 export const projects = [
     {
+        name:'Grid Without Nuclear',
+        description:'Merit order counterfactual model quantifying nuclear power\'s cost and emissions impact on Ontario\'s electricity grid, built on 96,432 hourly IESO records with a full ELT pipeline.',
+        tools:'[Python, PostgreSQL, dbt, Docker, Streamlit, Plotly]',
+        link:'https://github.com/devarshi-ap/GridWithoutNuclear',
+        demo:true,
+        demoLink:'https://gridwithoutnuclear-live.streamlit.app/'
+    },
+    {
         name:'Toronto Starbucks Effect',
         description:' Leveraging data analytics to gain key insights on the correlation b/n Starbucks locations & Toronto neighbourhood profiles.',
         tools:'[Python, Pandas, Plotly, MySQL, Tableau, MS Excel, Jupyter]',
         link:'https://github.com/devarshi-ap/toronto-starbucks-effect',
+        demo:false
+    },
+    {
+        name:'DSA-Snippets',
+        description:'VS Code extension for JavaScript, Java & JSON-based DS&A code snippets. (1,600+ installs)',
+        tools:'[JavaScript, Java, JSON]',
+        link:"https://marketplace.visualstudio.com/items?itemName=DevarshiPatel03.dsasnippets",
+        demo:true
+    },
+    {
+        name:'NPM Dependency Di-Graph Visualizer',
+        description:'Interactive web app to visualize NPM dependency graphs and surface deprecated packages using graph traversal algorithms.',
+        tools:'[Vue.js, TypeScript, Jest, GitHub Actions]',
+        link:'https://github.com/devarshi-ap/npm-dep-graph',
         demo:false
     },
     {
@@ -35,31 +57,10 @@ export const projects = [
         demo:true
     },
     {
-        name:'DSA-Snippets',
-        description:'VS Code extension for JavaScript DS&A code snippets. (300+ installs)',
-        tools:'[JavaScript]',
-        link:"https://marketplace.visualstudio.com/items?itemName=DevarshiPatel03.dsasnippets",
-        demo:true
-    },
-    {
         name:'GoLint-Env',
         description:"Dotenv linter program written in GoLang",
         tools:'[GoLang]',
-        link:"https://drake-rest.vercel.app/",
-        demo:true
-    },
-    {
-        name:'Weather App',
-        description:'Basic web-app that displays useful meteorological data for a given city using the Openweathermap API.',
-        tools:'[JavaScript, HTML, CSS]',
-        link:"https://weathrweb.netlify.app",
-        demo:true
-    },
-    {
-        name:'Folder Organizer Script',
-        description:"Python script that organizes a dir by iteratively creating and populating subdir's based on file ext's.",
-        tools:'[Python]',
-        link:"https://github.com/devarshi-ap/Python-Projects/blob/main/Folder%20Organizer/folder_organizer.py",
+        link:"https://github.com/devarshi-ap/GoLint-Env",
         demo:false
-    }
+    },
 ]
