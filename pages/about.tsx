@@ -63,7 +63,11 @@ export default function AboutPage() {
                         <p>I'm Devarshi Patel and <a href="/" className="text-orange dark:text-twitter">this site</a> is my 🏡 on the 🕸.</p>
 
                         <p>
-                            I recently completed a 12-month co-op term at OPG (PNGS) as a SWE Intern. Now, I'm a 4th-Year CS Student working towards my HBSc. in Computer Science, having transferred from TMU to Western University.
+                            I recently completed a 12-month co-op term at OPG (PNGS) as a SWE Intern, and I'm graduating in October 2026 with an HBSc. in Computer Science from Western University (transferred from TMU).
+                        </p>
+
+                        <p>
+                            I'm also part of <span className="text-orange dark:text-twitter">NAYGN</span> (North American Young Generation in Nuclear) on the Digital Committee, and was named a 2026 Conference Scholar — sponsored by Westinghouse Electric Company to attend NAYGN's Continental Conference in Atlanta.
                         </p>
 
                         <p>
@@ -76,7 +80,7 @@ export default function AboutPage() {
                         </p>
 
                         <p>
-                            <s><em>In pursuit of a 2025 Summer internship (pretty pls :)).</em></s>
+                            <em>In pursuit of a full-time SWE/Data role for 2026 (pretty pls :)).</em>
                         </p>
                     </div>
 
@@ -107,29 +111,29 @@ export default function AboutPage() {
                     <h1 className="text-4xl mobile:text-2xl mt-10 my-2 font-SerifPro text-orange dark:text-twitter underline underline-offset-6">Interests & Hobbies</h1>
                     <div className='text-dark_gray dark:text-c_taupe text-md font-SansPro space-y-6'>
                         <p>
-                            It's important to discover things you enjoy outside of school and work; things that make you human!
-                            Some activities I enjoy the heck out of:
+                            Here's some stuff I enjoy the heck out of:
                         </p>
                         <ul className='list-inside'>
                             <li className='underline'>Sports:</li>
                             <ul className='list-disc list-inside ml-3'>
                                 <li>🏀 : 5'11 Point Forward out of Toronto :)</li>
+                                <li>🏐 : YMCA vball warrior + beach :)</li>
                                 <li>🥏 : s/o my summer TUC team, ManILoveFrisbee</li>
                                 <li>🏈 : Fantasy Football</li>
-                                <li>🏋🏽 : Weightlifting; progress, one day at a time</li>
+                                <li>🏋🏽 : Weightlifting; one day at a time</li>
                             </ul>
 
                             <li className='underline'>Current Interests:</li>
                             <ul className='list-disc list-inside ml-3'>
-                                <li>💻 : OS Dev from Scratch (x86)</li>
-                                <li>🤝🏻 : Grokking Algorithms</li>
-                                <li>🦾 : Spending 5 hours automating a 5 minute task</li>
+                                <li>💻 : Data engineering</li>
+                                <li>🤝🏻 : Software Systems in High-Energy Env's</li>
+                                <li>🦾 : Still spending 5hrs automating a 5 minute task</li>
                             </ul>
 
                             <li className='underline'>Solace:</li>
                             <ul className='list-disc list-inside ml-3'>
                                 <li>🎧 : Self-proclaimed Music Savante (psst... <a href="https://open.spotify.com/user/dev9191?si=1fa1d94bb5564d46" className="text-orange dark:text-twitter">Spotify :)</a>)</li>
-                                <li>🌟 : Stargazing</li>
+                                <li>🍉 : Cutting fruit</li>
                                 <li>🛍️ : Thrifting</li>
                             </ul>
                         </ul>
