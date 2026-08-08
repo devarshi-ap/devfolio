@@ -1,5 +1,4 @@
 import Layout from '../components/Layout'
-import { Radar } from 'react-chartjs-2';
 import {
     Chart as ChartJS,
     RadialLinearScale,
@@ -19,25 +18,6 @@ ChartJS.register(
     Legend
 );
 
-export const data = {
-    labels: ['React', 'Python', 'Java', 'TypeScript', 'Next.js', 'SQL', 'Node.js (+Express)'],
-    datasets: [
-        {
-            label: 'Lines of Code [scale= 1:1000]',
-            data: [7, 8, 8, 3, 3, 1, 6],
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: 'rgba(255, 99, 132, 1)',
-            borderWidth: 1,
-        },
-        {
-            label: 'Proficiency [scale= 1:1 out of /10]',
-            data: [8, 8, 8, 7, 6, 4, 6],
-            backgroundColor: 'rgba(85, 223, 248, 0.2)',
-            borderColor: 'rgba(85, 223, 248, 1)',
-            borderWidth: 1,
-        },
-    ],
-};
 
 export default function AboutPage() {
     const langArr = ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Express.js', 'Java', 'Python', 'Bash', 'SQL', 'C', 'Lisp', 'Smalltalk', 'Elixir']
@@ -105,8 +85,6 @@ export default function AboutPage() {
                     <div className="grid grid-cols-2 gap-4 [&>*]:animate-bounce-slow text-center text-gray dark:text-d_coolwhite border-2 border-[#f43f5e] pt-1">
                         {otherStuff}
                     </div>
-
-                    <Radar data={data} className="border-2 p-2 my-5 bg-white rounded-md" />
 
                     <h1 className="text-4xl mobile:text-2xl mt-10 my-2 font-SerifPro text-orange dark:text-twitter underline underline-offset-6">Interests & Hobbies</h1>
                     <div className='text-dark_gray dark:text-c_taupe text-md font-SansPro space-y-6'>
